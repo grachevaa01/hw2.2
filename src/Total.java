@@ -14,4 +14,7 @@ public abstract class Total {
     public String getModelName() {
         return modelName;
     }
+    public void updateTyre () {
+        System.out.println(" Меняем покрышку ");
+    }
 }

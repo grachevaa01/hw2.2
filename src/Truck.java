@@ -2,9 +2,6 @@ public class Truck extends Total {
     public Truck (int wheelsCount, String modelName) {
         super (wheelsCount, modelName);
     }
-        public void updateTyre() {
-            System.out.println("Меняем покрышку");
-        }
 
         public void checkEngine() {
             System.out.println("Проверяем двигатель");

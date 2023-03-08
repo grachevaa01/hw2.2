@@ -3,9 +3,6 @@ public class Bicycle extends Total{
         super (wheelsCount, modelName);
     }
 
-        public void updateTyre() {
-            System.out.println("Меняем покрышку");
-        }
     }
 
 
