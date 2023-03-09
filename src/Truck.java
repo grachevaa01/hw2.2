@@ -3,10 +3,6 @@ public class Truck extends Car {
         super (wheelsCount, modelName);
     }
 
-        public void checkEngine() {
-            System.out.println("Проверяем двигатель");
-        }
-
         public void checkTrailer() {
             System.out.println("Проверяем прицеп");
         }
