@@ -1,4 +1,4 @@
-public class Truck extends Total {
+public class Truck extends Car {
     public Truck (int wheelsCount, String modelName) {
         super (wheelsCount, modelName);
     }
